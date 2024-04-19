@@ -2,33 +2,33 @@
 <html lang="pt-br"">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./src/styles/style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <script src="https://unpkg.com/scrollreveal"></script>
-  <script src="https://cdn.tailwindcss.com"></script>
-  
-  <script src="./tailwind.config.js"></script>
+  <meta charset=" UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="./src/styles/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://unpkg.com/scrollreveal"></script>
+<script src="https://cdn.tailwindcss.com"></script>
 
-  <script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          colors: {
-            'color-yellow-50': '#e9a209',
-            'color-yellow-30': '#ffcb45',
-            'color-yellow-10':'#f8d477',
-            'color-brown-90': '#1d1d1d',
-            'color-brown-95': '#1d1d1dad',
-            'color-bg-': '#fff9ea',
-          }
+<script src="./tailwind.config.js"></script>
+
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: {
+          'color-yellow-50': '#e9a209',
+          'color-yellow-30': '#ffcb45',
+          'color-yellow-10': '#f8d477',
+          'color-brown-90': '#1d1d1d',
+          'color-brown-95': '#1d1d1dad',
+          'color-bg-': '#fff9ea',
         }
       }
     }
-  </script>
-  <title>Landing Page food</title>
+  }
+</script>
+<title>Landing Page food</title>
 </head>
 
 <body class="bg-color-bg- overflow-x-hidden m-0 p-0">
@@ -81,7 +81,7 @@
     <section class="items-center relative text-center flex w-full max-w-screen-2xl pt-[72px]  mx-auto px-8 my-0 lg:min-h-[calc(95vh-96px)] lg:text-left"> <!-- min-h-[calc(95vh-96px)] = obrigado o conteudo o cupar o restante da tela tirando o menu por issop tiramos 96px de altura, tbm deixei 95vh para o usuaruio ver que tem mais coisa na pagina -->
       <div class="w-2/3 h-full absolute -right-72 -z-10 lg:bg-[#ffe8b4]  lg:rounded-tl-[300px] lg:rounded-tr-[200px] lg:rounded-bl-[100px] lg:rounded-br-[200px]"></div>
 
-      <div id="cta" class="w-full items-center lg:w-3/5 lg:items-start flex flex-col gap-8">
+      <div id="cta" class="w-full items-center lg:w-3/5 lg:items-start flex flex-col gap-8" style="max-width: 100vw; overflow-x: hidden;">
         <h1 class="font-bold text-color-brown-90 text-6xl leading-snug ">
           O sabor que vai até <span class="text-color-yellow-50">você</span>
         </h1>
@@ -89,10 +89,10 @@
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, facere reprehenderit.
         </p>
 
-        <div class=" flex flex-col gap-6 md:flex-row">
-          <a href="#" class="flex items-center justify-center bg-color-yellow-30 rounded-xl py-3 px-4 font-semibold shadow-sm cursor-pointer transition-all hover:bg-color-yellow-10 ease-in"> Ver cadapio</a>
+        <div class="flex flex-col gap-6 md:flex-row">
+          <a href="#" class="flex items-center justify-center bg-color-yellow-30 rounded-xl py-3 px-4 font-semibold shadow-sm cursor-pointer transition-all hover:bg-color-yellow-10 ease-in">Ver cadapio</a>
 
-          <a href="tel:+55555555555" class="items-center bg-white px-4 py-2 shadow-md rounded-xl flex gap-2 ">
+          <a href="tel:+55555555555" class="items-center bg-white px-4 py-2 shadow-md rounded-xl flex gap-2">
             <button class="flex items-center justify-center bg-color-yellow-30 rounded-xl py-3 px-4 font-semibold shadow-sm cursor-pointer transition-all hover:bg-color-yellow-10 ease-in">
               <i class="fa-solid fa-phone"></i>
             </button>
@@ -321,10 +321,10 @@
   </main>
 
   <footer class="w-screen bg-color-yellow-10">
-  <div class="min-w-max">
-    <img class="w-full" src="../src/img/wave.svg" alt="">
-  </div>
-    
+    <div class="min-w-max">
+      <img class="w-full" src="../src/img/wave.svg" alt="">
+    </div>
+
     <div class="w-full max-w-screen-2xl flex justify-between items-center pb-10 px-8 mx-auto my-0">
       <span> @copy 2024 Nicolas Yanase</span>
       <div class="flex gap-x-4">
