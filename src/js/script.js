@@ -63,18 +63,18 @@ $(document).ready(function () {
   ScrollReveal().reveal("#chef", {
     origin: "left",
     duration: 2500,
-    distance: "40%",
+    distance: "20%",
   });
 
   ScrollReveal().reveal("#dep01", {
     origin: "right",
     duration: 900,
-    distance: "30%",
+    distance: "10%",
   });
 
   ScrollReveal().reveal("#dep02", {
     origin: "right",
     duration: 1500,
-    distance: "30%",
+    distance: "10%",
   });
 });
