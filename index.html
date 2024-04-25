@@ -32,9 +32,53 @@
 </head>
 
 <body class="bg-color-bg- m-0 p-0">
- 
+  <header id="header" class="w-full fixed z-10 bg-color-bg- top-[-1px]">
+    <nav class="w-full mx-auto my-0 max-w-screen-2xl flex justify-between items-center px-4 py-4">
+      <a href="./index.html"><i class="fa-solid fa-burger text-color-yellow-50 text-2xl"> food</i></a>
+
+      <ul class="hidden lg:flex gap-14 font-medium"> <!-- mobile first, então coloque como será no celular e depois faça como sera pro pc -->
+        <li>
+          <a href="#home" id="home" class="nav-item text-color-brown-95 hover:text-color-brown-90 ">Início</a>
+        </li>
+        <li>
+          <a href="#menu" id="menu" class="nav-item text-color-brown-95 hover:text-color-brown-90">Cardápio</a>
+        </li>
+        <li>
+          <a href="#testimonials" id="testimonials" class="nav-item text-color-brown-95 hover:text-color-brown-90">Avaliações</a>
+        </li>
+      </ul>
+
+      <button class="hidden lg:flex items-center justify-center bg-color-yellow-30 rounded-xl py-3 px-4 font-semibold shadow-sm cursor-pointer transition-all hover:bg-color-yellow-10 ease-in">
+        Peça aqui
+      </button>
+
+      <button id="mobile-btn" class="cursor-pointer text-2xl text-color-brown-95 lg:hidden "> <!--na tela LG-1024px menu é escondido -->
+        <i id="menu-icon" class="fa-solid fa-bars"></i>
+      </button>
+    </nav>
+
+    <!-- MENU MOBILE -->
+    <nav id="mobile-menu" class="hidden py-4 lg:hidden">
+      <div class="flex flex-col justify-center items-center text-center gap-4 ">
+        <ul class="flex flex-col justify-center items-center gap-y-4 "> <!--na tela LG-1024px menu é escondido -->
+          <li>
+            <a href="#home">Início</a>
+          </li>
+          <li>
+            <a href="#menu">Cardápio</a>
+          </li>
+          <li>
+            <a href="#testimonials">Avaliações</a>
+          </li>
+        </ul>
+        <button class="flex items-center justify-center bg-color-yellow-30 rounded-xl py-3 px-4 font-semibold shadow-sm cursor-pointer transition-all hover:bg-color-yellow-10 ease-in">
+          Peça aqui
+        </button>
+      </div>
+    </nav>
+  </header>
   <main class="w-full relative">
-    <div class="hidden lg:w-3/6 lg:h-[30%] absolute top-[96px] right-0 -z-10 lg:bg-[#ffe8b4] lg:rounded-tl-[300px] lg:rounded-tr-[150px] lg:rounded-bl-[100px] lg:rounded-br-[200px]"></div>
+    
     <section class="items-center text-center flex w-full max-w-screen-2xl pt-[72px] mx-auto px-8 my-0 lg:min-h-[calc(95vh-96px)] lg:text-left"> 
       <div id="cta" class="w-full items-center lg:w-3/5 lg:items-start flex flex-col gap-8">
         <h1 class="font-bold text-color-brown-90 text-6xl leading-snug ">
